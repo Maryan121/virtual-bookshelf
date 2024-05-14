@@ -1,6 +1,6 @@
 # Virtual Bookshelf
 
-Virtual Bookshelf is a React.js application that serves as a platform for browsing and searching for books. It offers a responsive design, ensuring a seamless experience across different screen sizes.
+Virtual Bookshelf is a React.js application that serves as a platform for browsing and searching for books. It offers a responsive design, ensuring a seamless experience across different screen sizes.  
 you can see the live site here 
 
 ## Features
