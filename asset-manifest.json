@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Maryan121/virtual-bookshelf/static/css/main.18c88f42.css",
+    "main.js": "/Maryan121/virtual-bookshelf/static/js/main.742e81f5.js",
+    "index.html": "/Maryan121/virtual-bookshelf/index.html",
+    "main.18c88f42.css.map": "/Maryan121/virtual-bookshelf/static/css/main.18c88f42.css.map",
+    "main.742e81f5.js.map": "/Maryan121/virtual-bookshelf/static/js/main.742e81f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18c88f42.css",
+    "static/js/main.742e81f5.js"
+  ]
+}
