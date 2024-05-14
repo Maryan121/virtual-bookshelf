@@ -1,0 +1,126 @@
+.headerContainer{
+    text-align: center;
+}
+h1 {
+    text-transform: capitalize;
+    margin: 6rem auto;
+    margin-bottom: 0;
+    padding: 0 .3rem;
+}
+
+form {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 3rem auto;
+    flex-direction: column;
+}
+
+input {
+    font-size: 1.8rem;
+    padding: .5rem 1rem;
+
+}
+
+input:hover,
+input:focus {
+    outline: none;
+}
+
+button {
+    display: block;
+    /* margin: 0 auto; */
+    color: white;
+    background-color: rgb(91, 91, 239);
+    border: none;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+button:hover,
+button:focus {
+    background-color: rgb(47, 47, 245);
+}
+
+.displayData{
+    margin-top: 5rem;
+    padding: 1.5rem;
+    display: grid;
+    gap: 1rem;
+}
+.displayData img{
+    width:90%;
+    border: solid rgba(0, 0, 0, 0.281) 1px;
+    border-radius: .2rem;
+}
+.info{
+    text-align: left ;
+    /* font-size:large;
+    font-family:sans-serif;
+    text-transform: capitalize; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info p{
+    color: rgb(8, 8, 31);
+    font-size:large;
+    font-family:sans-serif;
+    text-transform: capitalize;
+}
+
+.info h3,p{
+    line-height: 2rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.links a{
+    color: blue;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.links a:hover,
+.links a:focus{
+    color: black;
+}
+.errorMessage{
+    color: red;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+@media(min-width: 510px){
+    .displayData{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(min-width:800px){
+    form{
+        flex-direction: row;
+    }
+
+    p{
+        width: 60%;
+    }
+    button{
+        align-self: normal;
+    }
+    .displayData{
+        width: 60%;
+        margin: 5rem auto;
+        gap: 3rem;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .displayData img{
+        height: 60vh;
+    }
+}
